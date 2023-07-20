@@ -1,0 +1,8 @@
+<!-- (keyup.enter)="enviarValor(input.value)" -->
+<input
+type="text"
+class="form-control"
+[value]="valorInicialBusqueda"
+[placeholder]="placeholder"
+(keyup)="onKeyPress(input.value)"
+#input>

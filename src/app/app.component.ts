@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sin-routing';
+  public date: Date = new Date();
+
+  constructor() { }
+
+  get fecha(): number {
+    return this.date.getFullYear();
+  }
 }

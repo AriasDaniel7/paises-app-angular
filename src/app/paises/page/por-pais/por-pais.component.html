@@ -1,0 +1,8 @@
+<div>
+  <div>
+    <h2 class="text-center">Busqueda por país</h2>
+  </div>
+  <shared-buscador [valorInicialBusqueda]="busqueda" [placeholder]="'Busqueda por país...'" (busqueda)="busquedaPorPais($event)"></shared-buscador>
+  <shared-loading *ngIf="isLoading"></shared-loading>
+  <paises-tabla-paises [paises]="paises"></paises-tabla-paises>
+</div>
