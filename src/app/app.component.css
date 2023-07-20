@@ -4,3 +4,9 @@
   margin: 0 auto;
   margin-top: 5rem;
 }
+
+.content{
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+}
